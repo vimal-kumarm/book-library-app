@@ -326,5 +326,5 @@ cd book-library-app
 
 **Vimal** — BE CSE Final Year Student
 📍 Tamil Nadu, India
-🐙 [GitHub](https://github.com/vimal-kumarm)
-💼 [LinkedIn](www.linkedin.com/in/vimalkumar-m-1a0a812a6)
+🐙 [GitHub]https://github.com/vimal-kumarm
+💼 [LinkedIn]www.linkedin.com/in/vimalkumar-m-1a0a812a6
