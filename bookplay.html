@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book playit </title>
+    <link rel="stylesheet" href="book.css">
+</head>
+
+<body class="bookplay">
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/008/299/879/small/book-logo-design-template-vector.jpg"
+                alt="Book Playit Logo" class="logo-img"> Book Playit
+        </div>
+        <div class="search-bar ">
+            <input class="search" type="text" placeholder="Search for books, authors..." value="">
+            <button onclick="searchBooks()" class="btn">Search</button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Authors</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="book-card">
+            <h1 class="book-title">RICH DAD POOR DAD</h1>
+            <p> first published in 1997. The book presents financial lessons through a contrast between
+                two father figures in Kiyosaki’s life: his biological father ("Poor Dad"), who was
+                highly educated but struggled financially, and the father of his childhood best friend ("Rich Dad"),
+                an entrepreneur who became wealthy through investing and financial literacy. </p>
+            <button class="btn" id="delete-btn">Delete</button>
+        </div>
+
+
+        <div class="popup-add-book">
+            <input type="text" placeholder="Book Title">
+            <input type="text" placeholder="Author">
+            <input type="text" placeholder="Description">
+            <button class="btn" onclick="addBook()">Add Book</button>
+            <button class="close-btn" onclick="closePopup()">Close</button>
+        </div>
+        <button class="addbtn" onclick="openPopup()">+</button>
+
+        <script src="book.js"></script>
+</body>
+
+</html>
